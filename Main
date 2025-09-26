@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billions Network Fan Hub - Support the Human & AI Network</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #0a0a0a; color: #fff; }
+        header { background: linear-gradient(135deg, #1e3c72, #2a5298); padding: 2rem; text-align: center; }
+        .hero { font-size: 2.5rem; margin: 0; }
+        .network-viz { display: flex; justify-content: center; padding: 2rem; }
+        .node { width: 20px; height: 20px; background: #00ff88; border-radius: 50%; margin: 0 10px; animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
+        section { padding: 2rem; max-width: 800px; margin: auto; }
+        .embed { margin: 1rem 0; }
+        footer { text-align: center; padding: 1rem; background: #111; }
+        a { color: #00ff88; text-decoration: none; }
+        button { background: #00ff88; color: #0a0a0a; padding: 0.5rem 1rem; border: none; cursor: pointer; }
+        #tracker { background: #111; border: 1px solid #00ff88; border-radius: 8px; padding: 1rem; }
+        .twitter-timeline { height: 600px; overflow-y: auto; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="hero">Billions Network Fan Hub</h1>
+        <p>Supporting the Human & AI Network: ZK Identity, Privacy, and Community Power. Built by fans for fans. 🅱️</p>
+        <a href="https://x.com/billions_ntwk" target="_blank">@billions_ntwk on X</a> | <a href="https://discord.gg/billions-ntwk" target="_blank">Join Discord</a> | <a href="https://signup.billions.network?rc=6LHJA4LW" target="_blank">Sign Up (Referral)</a>
+    </header>
+    
+    <div class="network-viz">
+        <div class="node"></div>
+        <div class="node" style="animation-delay: 0.5s;"></div>
+        <div class="node" style="animation-delay: 1s;"></div>
+        <div class="node" style="animation-delay: 1.5s;"></div>
+    </div>
+    
+    <section id="about">
+        <h2>About Billions Network</h2>
+        <p>Billions is pioneering ZK-powered identity for humans and AI, enabling secure, privacy-focused verification. With nearly 2M users, it's building the internet of value—fighting bots, enabling collaborations, and expanding via events like KBW 2025. Shoutout to admins like @provenauthority and @jgonzalezferrer for leading the charge!</p>
+    </section>
+    
+    <section id="get-involved">
+        <h2>Get Involved & Show Support</h2>
+        <ul>
+            <li><strong>Join:</strong> Sign up at <a href="https://signup.billions.network?rc=6LHJA4LW" target="_blank">signup.billions.network (Referral)</a> for verifiable identity.</li>
+            <li><strong>Community Chat:</strong> Hop into <a href="https://discord.gg/billions-ntwk" target="_blank">Discord</a> for discussions and updates.</li>
+            <li><strong>Yap on X:</strong> Post with #gBillions or tag @billions_ntwk—admins love active yappers!</li>
+            <li><strong>Events:</strong> Check out meetups like "Road to Agentic Future" or propose your own.</li>
+        </ul>
+        <p>Admins, if you're reading: Let's collab! Ideas for AMAs or Korean community tools? DM me on X.</p>
+    </section>
+    
+    <section id="tracker">
+        <h2>gBillions Tracker</h2>
+        <p>Track all "gBillions" mentions across X in real-time! This live feed shows community shouts, updates, and vibes. Use it to join the conversation or spot trends. (Pro tip: Post with "gBillions" to appear here!)</p>
+        <a class="twitter-timeline" data-height="600" href="https://twitter.com/search?q=gBillions%20OR%20%23gBillions%20-filter%3Areplies">gBillions Mentions on X</a> 
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </section>
+    
+    <section id="resources">
+        <h2>Community Resources</h2>
+        <p>Useful stuff for yappers and builders:</p>
+        <ul>
+            <li><a href="https://zeroknowledge.fm/podcast/377/">ZK Podcast Episode</a> with CTO @OBrezhniev.</li>
+            <li>Privacy Policy: <a href="https://billions.network/privacy-policy">Here</a>.</li>
+            <li>Yapper Toolkit: Tips to boost engagement—post daily GMs, share ZK insights, join Spaces.</li>
+        </ul>
+        <div class="embed">
+            <!-- Embed recent X post (replace ID with a real one, e.g., from their feed) -->
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Recent update from @billions_ntwk!</p>&mdash; Billions (@billions_ntwk) <a href="https://twitter.com/billions_ntwk/status/1971577401386647774">September 26, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </section>
+    
+    <section id="feedback">
+        <h2>Feedback & Contributions</h2>
+        <p>Help improve this hub! Suggest features via GitHub issues or X. Community-built for the win.</p>
+        <button onclick="window.location.href='https://github.com/yourusername/billions-ntwk-fan-hub/issues'">Submit Idea</button>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Billions Fan Hub. Not official—fan-made support. Open source on GitHub.</p>
+    </footer>
+</body>
+</html>
